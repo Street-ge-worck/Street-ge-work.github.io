@@ -1,0 +1,942 @@
+@font-face{
+    font-family: Montserrat-h1;
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,800&display=swap');
+} 
+@font-face{
+    font-family: Montserrat-h2;
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+}
+@font-face{
+    font-family: Montserrat-h3;
+    src: url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Montserrat:wght@800&display=swap');
+}
+@font-face{
+    font-family: Montserrat-h4;
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+}
+@font-face{
+    font-family: label;
+    src: url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Montserrat:wght@800&display=swap');
+}
+@font-face{
+    font-family: body_1;
+    src: url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat:wght@800&display=swap');
+}
+@font-face{
+    font-family: body_2;
+    src: url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat:wght@800&display=swap');
+}
+body{
+    margin: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    font-family: Montserrat-h1;
+    font-size: 48px;
+    height: 64px;
+    line-height: 64px;
+}
+h2{
+    font-family: Montserrat-h2;
+    font-size: 40px;
+    height: 54px;
+    line-height: 54px
+}
+
+
+h3{
+    font-family: Montserrat-h3;
+    font-size: 28px;
+    height: 40px;
+    line-height: 40px;
+}
+
+h4{
+    font-family: Montserrat-h4;
+    font-size: 18px;
+    height: 28px;    
+    line-height: 28px;
+}
+
+.body_1{
+    font-family: body_1;
+    font-size: 16px;
+    height: 26px;
+    line-height: 26px;
+
+}
+
+.body_2{
+    font-family: body_2;
+    font-size: 14px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.label{
+    font-family: label;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px
+}
+
+header{
+    background-color: #DCDCDC;
+    width: 100%;
+    height: 72px;
+    display: flex;
+}
+.margin{
+    margin-left: 164px;
+}
+.logo{
+    height: 25px;
+    width: 208px;
+    margin-top: 24px;
+    margin-left: 111px;
+}
+.small_text{
+    width: 471px; 
+    height: 115px;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+    margin-top: 14px;
+}
+
+.but_nav{
+    height: 38px;
+    width: 86px;
+    padding-left: 30px;
+    position: relative;
+    bottom: 33%;
+}
+.text_style_footer{
+    padding-left: 160px;
+    padding-top: 32px;
+}
+
+.button{
+    background-color: #DD4859;
+    color: #DCDCDC;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: var(--Brown-100, #5A3123);
+    font-family: Montserrat-Bold;
+    font-size: 14px;
+}
+.img_holiday{
+    height: 330px;
+    width: 330px;
+}
+.position_text_holiday{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+}
+
+.button_position{
+    margin-top: 24px;
+    margin-left: 188px;
+}
+
+.button:hover{
+    background-color: #2D3848;
+}
+.social{
+    padding-left: 61px; 
+    padding-top: 30px;
+}
+.text{
+    padding-left: 162px;
+    padding-top: 274px;
+}
+.style_text{
+    width: 571px; 
+    height: 115px;
+}
+aside{
+    height: 583px;
+    width: 1125px;
+    display: flex;
+}
+
+.photo{
+    margin-top: 190px;
+}
+.margin{
+    margin-left: 150px;
+}
+.position_holiday{
+    margin-left: 0px;
+}
+.left{
+    position: absolute;
+    top: 350px;
+    left: 1072px;
+}
+.text_holiday{
+    text-align: center;
+}
+.down{
+    position: absolute;
+    top: 638px;
+    left: 867px;
+}
+.position_cace_to_photo{
+    position: relative;
+    left: 40%;
+}
+.up{
+    position: absolute;
+    top: 228px;
+    left: 1063px;
+}
+.photo_cace{
+    position: relative;
+    left: -300px;
+}
+.right{
+    position: absolute;
+    top: 191px;
+    left: 839px;
+}
+
+.holiday_location{
+    display: flex;
+    margin-left: 160px;
+}
+
+main{
+    padding-top: 71px;
+}
+
+.holiday_products{
+    height: 500px;
+    width: 365px;
+}
+
+.window_inform{
+    background-color: #ffffff;
+    width: 320px;
+    height: 200px;
+    border-radius: 20px;
+    position: relative;
+    top: -60px;
+    left: 35px;
+    z-index: 1;
+    border: 8px solid rgba(0, 0, 0, 0.06);
+}
+
+.position_button_2{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-top: 80px;
+}
+.reviews_block{
+    display: flex;
+}
+.whu_us{
+    background-color: #b9aaaa;
+    height: 339px;
+    width: 352px;
+    border-radius: 128px 32px 32px 32px;
+    position: relative;
+    left: 190px;
+}
+.position_text_holiday{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 60px;
+}
+.ball{
+    height: 96px;
+    width: 96px;
+    border-radius: 100%;
+    position: relative;
+    top: 32px;
+    left: 128px;
+}
+.margin_whu_us{
+    margin-left: 21.4px;
+}
+.whu_us_blocs{
+    display: flex;
+}
+.statistics{
+    background-color: #d4857c;
+    height: 123px;
+    width: 1115px;
+    border-radius: 32px 128px 32px 32px;
+    margin-top: 100px;
+    margin-left: 190px;
+    display: flex;
+}
+
+.cake_to_photo{
+    background-color: rgba(49, 62, 86, 0.1);
+    height: 565px;
+    width: 100%;
+    display: flex;
+    margin-top: 268px;
+}
+.photo_cace{
+    border-radius: 34px 130px 34px 34px; 
+    height: 565px; 
+    width: 544px; 
+    margin-left: 160px;
+}
+.form_otpr{
+    height: 53px; width: 544px;
+    margin-left: -36px;
+}
+
+.block_implementation{
+    height: 238px;
+    width: 256px;
+    border-radius: 32px;
+    position: relative;
+    z-index: 2;
+    margin-left: 33px;
+}
+
+.circle{
+    background-color: #ffffff;
+    height: 96px;
+    width: 96px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
+    position: relative;
+    top: -48px;
+    z-index: 3;
+    border: 8px solid rgba(0, 0, 0, 0.04);
+}
+
+.order_implementation{
+    display: flex;
+    margin-left: 160px;
+    margin-top: 65px;
+}
+.inform_footer{
+    padding-left: 32px; 
+    padding-top: 30px;
+}
+.block_reviews{
+    background-color: #ffffff;
+    height: 378px;
+    width: 352px;
+    border: 8px solid rgba(14, 14, 14, 0.04);
+    border-radius: 128px 32px 32px 32px;
+    margin-left: 51px;
+}
+.padding_footer{
+    display: flex; 
+    padding-top: 20px;
+}
+.gradient_circle{
+    background: linear-gradient(45deg, #FF8A00 , #E54747, #CE09FF);
+    height: 88px;
+    width: 88px;
+    border-radius: 100%;
+    margin-left: 132px;
+}
+.text_choice{
+    height: 53px; 
+    width: 544px;
+}
+.text_reviews{
+    height: 99px;
+    width: 269px;
+    margin-left: 38px;
+    margin-top: 25px;
+}
+
+.block_aplications{
+    background-color: rgba(49, 62, 86, 0.1);
+    height: 520px;
+    width: 100%;
+    margin-top: 130px;
+    display: flex;
+}
+
+.form_applications{
+    margin-left: 161px;
+    position: relative;
+    top: 32px;
+}
+.position_button_3{
+    margin-top: 105px;
+    margin-left: 105px;
+}
+.spisok{
+    background-color: #ffffff;
+    position: relative;
+    height: 53px;
+    width: 544px;
+    border: 1px solid black;
+}
+.photo_form_applications_2{
+    display: none;
+}
+summary{
+    padding-top: 8px;
+    padding-bottom: 18px;
+    padding-left: 3px;
+}
+
+.left_photo{
+    border-radius: 125px 39px 39px 39px;
+}
+
+.right_photo{
+    border-radius: 40px 39px 125px 39px;
+    padding-left: 25px;
+    position: relative;
+    top: 158px;
+}
+
+.up_photo{
+    position: relative;
+    left: 250px;
+    bottom: 390px;
+}
+
+.down_photo{
+    position: relative;
+    top: 21px;
+    right: 170px;
+}
+.star{
+    margin-top: 25px; 
+    margin-left: 80px;
+}
+.photo_form_applications{
+    margin-left: 125px;
+    margin-top: -23px;
+}
+
+.information_for_order{
+    background-color: rgba(13, 5, 5, 0.4);
+    height: 600px;
+    width: 100%;
+    display: flex; 
+    margin-top: 126px;
+}
+.logo_footer{
+    padding-left: 160px; 
+    padding-top: 55px;
+}
+.map_footer{
+    margin-left: 256px;
+    margin-top: 70px;
+}
+.map{
+    width: 600px;
+    height: 450px;
+}
+.order{
+    background: linear-gradient(45deg, #3A91AD, #2DF972);
+    height: 328px;
+    width: 1120px;
+    border-radius: 128px 32px 32px 32px;
+    margin-left: 160px;
+    margin-top: 82px;
+}
+
+.footer{
+    display: flex;
+    background-color: rgba(197, 196, 196, 0.4);
+    margin-top: 100px;
+}
+.button_3{
+    position: absolute; 
+    top: 3262px; 
+    left: 736px;
+}
+.footer_footer{
+    background-color: rgba(197, 196, 196, 1);
+    width: 100%;
+    height: 60px;
+    margin-top: -20px;
+}
+.photo_1{
+    display: none;
+}
+.menu{
+    display: none;
+}
+.position_form{
+    position: absolute; 
+    top: 2950px; 
+    left: 736px;
+}
+.position_cace_to_photo{
+    position: relative;
+    top: -100px;
+}
+.form_photo{
+    height: 53px;
+    width: 544px;
+}
+.margin_top{
+    margin-top: 40px;
+}
+.margin_revews{
+    margin-left: 141px;
+}
+.position_strelka{
+    padding-left: 343px; 
+    position: relative; 
+    top: 7px;
+}
+.blog{
+    display: flex;
+}
+.holiday_products_1{
+    margin-left: 170px;
+}
+.holiday_products{
+    margin-left: 9px;
+}
+.position_blog{
+    display: flex; 
+    justify-content: center; 
+    position: relative; 
+    top: 60px; 
+    text-align: center;
+}
+.button_5{
+    position: relative; 
+    left: 498px; 
+    top: 150px;
+}
+.text_footer_2{
+    text-align: center; 
+    position: relative; 
+    top: 96px;
+}
+.text_footer_3{
+    text-align: center;  
+    position: relative; 
+    top: 80px;
+}
+.potder{
+    padding-left: 129px; 
+    padding-top: 30px;
+}
+@media (max-width:390px){  
+    .button{
+        background-color: #DD4859;
+        color: #DCDCDC;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        border-radius: 6px;
+        -webkit-text-stroke-width: 1;
+        -webkit-text-stroke-color: var(--Brown-100, #5A3123);
+        font-family: Montserrat-Bold;
+        font-size: 10px;
+    }
+    h1{
+        font-family: Montserrat-h1;
+        font-size: 38px;
+        height: 44px;
+        line-height: 44px;
+    }
+    h2{
+        font-family: Montserrat-h2;
+        font-size: 40px;
+        height: 54px;
+        line-height: 54px
+    }
+    h3{
+        font-family: Montserrat-h3;
+        font-size: 24px;
+        height: 30px;
+        line-height: 30px;
+    }
+    h4{
+        font-family: Montserrat-h4;
+        font-size: 18px;
+        height: 28px;    
+        line-height: 28px;
+    }
+    .body_1{
+        font-family: body_1;
+        font-size: 16px;
+        height: 26px;
+        line-height: 26px;
+    
+    }
+    .body_2{
+        font-family: body_2;
+        font-size: 14px;
+        height: 24px;
+        line-height: 24px;
+    }
+    .label{
+        font-family: label;
+        font-size: 14px;
+        height: 20px;
+        line-height: 20px
+    }
+    header{
+        background-color: #DCDCDC;
+        width: 103%;
+        height: 52px;
+        display: block;
+    }
+    .logo{
+        height: auto;
+        width: 100px;
+        transform: translate(50%, -20%);
+    }
+    .background_nav{
+        background-color: rgb(119, 111, 111);
+        width: 100%;
+        transform: translate(0%, -5px);
+    }
+    .navigation{
+        transform: translate(-12%, -20%);
+    }
+    .but_nav{
+        width: 40px;
+    }
+    .button_position{
+        transform: translate(60%, -110px);
+    }
+    aside{
+        height: 583px;
+        width: 100%;
+        display: block;
+    }
+    .photo{
+        display: none;
+    }
+    .photo_1{
+        display: block;
+        transform: translate(-25px, 30%);
+    }
+    .down_1{
+        width: 105px;
+        height: 90px;
+        transform: translate(110px, 80px);
+    }
+    .right_1{
+        width: 110px;
+        height: 220px;
+        
+    }
+    .left_1{
+        width: 110px;
+        height: 220px;
+        transform: translate(0%, 35%);
+    }
+    .up_1{
+        width: 105px;
+        height: 90px;
+        transform: translate(225px, -230px);
+    }
+    .text{
+        transform: translate(-145px, -230px);
+    }
+    .style_text{
+        height: auto;
+        width: 400px;
+    }
+    .small_text{
+        transform: translate(0, 10px);
+        height: auto;
+        width: 400px;
+    }
+    .button_1{
+        position: relative;
+        top: 20px;
+    }
+    .holiday_location{
+        display: block;
+        transform: translate(-130px, 80px);
+    }
+    .holiday_products{
+        height: 500px;
+        width: 300px;
+    }
+    .img_holiday{
+        height: 270px;
+        width: 270px;
+    }
+    .window_inform{
+        background-color: #ffffff;
+        width: 220px;
+        height: 140px;
+        border-radius: 20px;
+        position: relative;
+        top: -60px;
+        left: 35px;
+        z-index: 1;
+        border: 8px solid rgba(0, 0, 0, 0.06);
+    }
+    .position_text_holiday{
+        transform: translate(0px, -30px);
+    }
+    .position_button_2{
+        transform: translate(0px, -90px);
+    }
+    .whu_us_blocs{
+        display: block;
+    }
+    .whu_us{
+        transform: translate(-170px, 0px);
+    }
+    .margin_whu_us{
+        transform: translate(-190px, 0px);
+        margin-top: 30px;
+    }
+    .statistics{
+        transform: translate(-170px, 0px);
+        width: 360px;
+    }
+    .block_statistics{
+        transform: translate(-50px, 0px);
+    }
+    .padding_statistics{
+        margin-left: -190px;
+    }
+    .letter{
+        transform: translate(0px, -30px);
+    }
+    .letter_2{
+        transform: translate(0px, -30px);
+    }
+    .letter_3{
+        transform: translate(0px, -30px);
+    }
+    .photo_cace{
+        height: 300px;
+        width: 300px;
+        transform: translate(-200px, 0px);
+    }
+    .position_cace_to_photo{
+        position: relative;
+        left: 0px;
+    }
+    .size_text{
+        width: 390px;
+        text-align: center;
+    }
+    .position_form{
+        position: absolute; 
+        top: 5820px; 
+        left: 30px;
+    }
+    .button_3{
+        transform: translate(-650px, -3010px);
+    }
+    .form_photo{
+        height: 33px;
+        width: 244px;
+    }
+    .margin_top{
+        margin-top: 40px;
+    }
+    .form_otpr{
+        height: 33px;
+        width: 244px;
+        margin-left: -36px;
+    }
+    .order_implementation{
+        display: block;
+    }
+    .block_implementation{
+        transform: translate(-120px, 90px);
+        margin-top: 80px;
+    }
+    .position_2{
+        margin-top: 130px;
+    }
+    .reviews_block{
+        display: block;
+        margin-top: 70px;
+    }
+    .margin_revews{
+        margin-left: 0px;
+    }
+    .block_reviews{
+        margin-left: 0px;
+    }
+    .block_reviews{
+        background-color: #ffffff;
+        height: 328px;
+        width: 302px;
+        border: 8px solid rgba(14, 14, 14, 0.04);
+        border-radius: 128px 32px 32px 32px;
+        margin-left: 36px;
+        margin-top: 70px;
+    }
+    .gradient_circle{
+        transform: translate(-25px, -50px);
+    }
+    .star{
+        transform: translate(-20px, -40px);
+    }
+    .Username{
+        transform: translate(0px, -40px);
+    }
+    .photo_form_applications{
+        display: none;
+    }
+    .block_aplications{
+        display: block;
+        height: 900px;
+        width: 100%;
+    }
+    .photo_form_applications_2{
+        display: block;
+    }
+    .right_photo_2{
+        border-radius: 39px 39px 125px 39px;
+        height: 300px;
+        width: 140px;
+        transform: translate(70px, 100px);
+    }
+    .left_photo_2{
+        border-radius: 125px 40px 39px 39px;
+        height: 300px;
+        width: 140px;
+        transform: translate(55px, -300px);
+    }
+    .up_photo_2{
+        border-radius: 40px 125px 39px 39px;
+        height: 70px;
+        width: 135px;
+        transform: translate(70px, -510px);
+
+    }
+    .down_photo_2{
+        border-radius: 40px 39px 39px 125px;
+        height: 70px;
+        width: 135px;
+        transform: translate(60px, 80px);
+    }
+    .form_applications{
+        margin-left: 0px;
+        position: relative;
+        top: -220px;
+    }
+    .text_choice{
+        transform: translate(40px, 0px);
+        height: 33px;
+        width: 300px;
+    }
+    .spisok{
+        transform: translate(40px, 0px);
+        height: 33px;
+        width: 300px;
+    }
+    .position_strelka{
+        transform: translate(-80px, -25px);
+    }
+    .p_b{
+        transform: translate(130px, 0px);
+    }
+    .pad_text{
+        margin-left: 30px;
+    }
+    .blog{
+        display: block;
+    }
+    .holiday_products_1{
+        margin-left: 30px;
+    }
+    .holiday_products{
+        margin-left: 30px;
+    }
+    .position_blog{
+        margin-top: -15px;
+    }
+    .position_button_2{
+        margin-top: 65px;
+    }
+    .position_button_3{
+        margin-top: 95px;
+        margin-left: 75px;
+    }
+    .information_for_order{
+        display: block;
+    }
+    .footer_text_2{
+        transform: translate(0px, 150px);
+    } 
+    .footer_text{
+        transform: translate(0px, 150px);
+    }
+    .padding_footer{
+        transform: translate(0px, 150px);
+    }
+    .map{
+        height: 100px;
+        width: 200px;
+    }
+    .map_footer{
+        transform: translate(-150px, -310px);
+    }
+    .text_style_footer{
+        transform: translate(-55px, 0px);
+    }
+    .order{
+        width: 100%;
+        height: 200px;
+        margin-left: 0px;
+    }
+    .text_footer_2{
+        text-align: center; 
+        position: relative; 
+        top: 40px;
+    }
+    .text_footer_3{
+        text-align: center;  
+        position: relative; 
+        top: 30px;
+    }
+    .footer{
+        display: block;
+    }
+    .button_5{
+        margin-left: -340px;
+        position: relative;
+        top: 40px;
+    }
+    .logo_footer{
+        margin-left: -50px;
+    }
+    .inform_footer{
+        margin-left: 80px;
+    }
+    .social{
+        margin-left: 40px;
+    }
+    .potder{
+        margin-left: -10px;
+    }
+}
